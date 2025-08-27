@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/enviar" method="post">            
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="digite seu nome"><br>
+
+        <label for="nome">Senha: </label>
+        <input type="password" id="nome" name="nome" placeholder="digite sua senha"><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="digite seu nome" value=""><br>
+
+        <label for="nascimento">Nascimento: </label>
+        <input type="date" id="nascimento" name="nascimento" placeholder="digite sua data de nascimento" value=""><br>
+
+        <label for="idade">Idade: </label>
+        <input type="number" id="idade" name="idade" placeholder="digite sua idade" value=""><br>
+
+        <label for="brasilerio">Brasileiro</label>
+        <input type="radio" id="nacionalidade" name="brasilerio" value="brasileiro"><br>
+        <label for="estrangeiro">Estrangeiro</label>
+        <input type="radio" id="nacionalidade" name="estrangeiro" value="estrangeiro"><br>
+
+        <label for="is_admin">Administrador? </label>
+        <input type="checkbox" id="is_admin" name="is_admin" value=""><br>
+            
+        <label for="anotcacoes">Mensagem:</label><br>
+        <textarea id="anotacoes" name="anotacoes" rows="5" cols="30"
+                    placeholder="difigite sua anotação...">
+Anotação
+        </textarea><br>
+
+        <label>Cidade
+            <select name="cidade">
+                <option value="am">manaus</option>
+                <option value="sp">sao paulo</option>
+                <option value="ex">exterior</option>
+            </select>
+        </label>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        <button type="button" onclick="alert('Olá!')">Clique aqui</button>
+
+
+    </form>
+
+
+</body>
+</html>
