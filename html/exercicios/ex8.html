@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <label for="valor">Valor</label>
+        <input type="number" name="valor" id="valor" required placeholder="digite o valor">
+        
+        <br>
+        
+        <label for="pagamento">forma de pagamento:</label>
+        <select name="pagamento" id="pagamento"required>
+            <option value="debito">debito</option>
+            <option value="credito">credito</option>
+            <option value="dinheiro">dinheiro</option>
+            <option value="pix">pix</option>
+        </select>
+
+        <br>
+
+        <button type="submit">enviar</button>
+        <button type="reset">limpar</button>
+
+    </form>
+</body>
+</html>
